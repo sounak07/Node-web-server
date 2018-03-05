@@ -52,6 +52,10 @@ app.get("/bad", (req,res)=>{
   });
 })
 
+app.get("/project", (req,res)=>{
+  res.render("project");
+});
+
 app.listen(port, () => {
   console.log("Server is running");
 });
